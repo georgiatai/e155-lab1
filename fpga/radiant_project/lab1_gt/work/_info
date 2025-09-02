@@ -1,0 +1,102 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/User/my_designs/lab1_gt
+T_opt
+!s110 1756811872
+VjGKaj8Lc>J1>lD=jA^KE^0
+04 7 4 work lab1_gt fast 0
+=1-505a65349729-68b6d260-12-623c
+R0
+!s12f OEM25U2 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L iCE40UP
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vlab1_gt
+2C:/Users/User/my_designs/lab1_gt/source/impl_1/lab1_gt.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1756811546
+!i10b 1
+!s100 m`T8ZNO?FjjZSD52[2T370
+IT@?NbDQH_PKnV5QZ2O6QS3
+S1
+R1
+w1756811259
+8C:/Users/User/my_designs/lab1_gt/source/impl_1/lab1_gt.sv
+FC:/Users/User/my_designs/lab1_gt/source/impl_1/lab1_gt.sv
+!i122 3
+L0 8 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z6 !s108 1756811546.000000
+!s107 C:/Users/User/my_designs/lab1_gt/source/impl_1/lab1_gt.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/my_designs/lab1_gt/source/impl_1/lab1_gt.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vled_decoder
+2C:/Users/User/my_designs/lab1_gt/source/impl_1/LED_decoder.sv
+R3
+Z8 !s110 1756811547
+!i10b 1
+!s100 o^`S^^adC]haTHTACFXYJ1
+IzDaMA<GoakXh5foMY3_oX0
+S1
+R1
+w1756809950
+8C:/Users/User/my_designs/lab1_gt/source/impl_1/LED_decoder.sv
+FC:/Users/User/my_designs/lab1_gt/source/impl_1/LED_decoder.sv
+!i122 4
+L0 8 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/my_designs/lab1_gt/source/impl_1/LED_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/my_designs/lab1_gt/source/impl_1/LED_decoder.sv|
+!i113 0
+R7
+R2
+vseven_seg_decoder
+2C:/Users/User/my_designs/lab1_gt/source/impl_1/seven_seg_decoder.sv
+R3
+R8
+!i10b 1
+!s100 Qa:6?P9JEEn@R1AEFNY;L1
+I4UlziO]>T;FeXoJeK2@CQ1
+S1
+R1
+w1756807736
+8C:/Users/User/my_designs/lab1_gt/source/impl_1/seven_seg_decoder.sv
+FC:/Users/User/my_designs/lab1_gt/source/impl_1/seven_seg_decoder.sv
+!i122 5
+L0 8 28
+R4
+R5
+r1
+!s85 0
+31
+!s108 1756811547.000000
+!s107 C:/Users/User/my_designs/lab1_gt/source/impl_1/seven_seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/my_designs/lab1_gt/source/impl_1/seven_seg_decoder.sv|
+!i113 0
+R7
+R2
