@@ -1,9 +1,11 @@
-/*
-lab1_gt.sv
-Author: Georgia Tai, ytai@g.hmc.edu
-Date: Sep 1, 2025
-Top level module for Lab 1 of E155 @HMC. Controls 3 LEDs and a 7-segment display with 4 switches.
-*/
+/////////////////////////
+// lab1_gt.sv
+// Author: Georgia Tai, ytai@g.hmc.edu
+// Date: Sep 1, 2025
+// 
+// Top level module for Lab 1 of E155 @HMC. 
+// Controls 3 LEDs and a 7-segment display with 4 switches and an internal oscillator.
+/////////////////////////
 
 module lab1_gt(
 	input  logic [3:0] s,
@@ -17,8 +19,12 @@ module lab1_gt(
 	HSOSC #(.CLKHF_DIV(2'b01)) 
 	      hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(clk));
 	
-	// Modules for LED and segment display decoders
-	led_decoder ledDecoder (.clk(clk), .switches(s), .led(led));
-	seven_seg_decoder segDecoder (.hex(s), .seg(seg));	
+	// Modules for clock-controlled LED and segment display decoders
+	led2_counter      ledCounter (.clk(clk), .led2(led[2]));
+	seven_seg_decoder segDecoder (.hex(s), .segments(seg));	
+
+	// Logic for switch-controlled LEDs
+	assign led[0] = s[1] ^ s[0];
+    assign led[1] = s[3] & s[2];
 
 endmodule

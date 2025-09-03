@@ -1,0 +1,36 @@
+C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_seven_seg_decoder
+
+Top level modules:
+	testbench_seven_seg_decoder
+
+} {} {}} C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module seven_seg_decoder
+
+Top level modules:
+	seven_seg_decoder
+
+} {} {}} C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module led2_counter
+
+Top level modules:
+	led2_counter
+
+} {} {}} C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_gt
+
+Top level modules:
+	lab1_gt
+
+} {} {}}

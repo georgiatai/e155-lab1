@@ -1,0 +1,204 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/User/Desktop/e155_lab1_gt/lab1_gt
+T_opt
+!s110 1756888449
+Vi82?K9;YdB018m`9YOcMk2
+04 9 4 work testbench fast 0
+=7-505a65349729-68b7fd81-19d-77ec
+R0
+!s12f OEM25U4 
+Z3 !s12b OEM100
+Z4 !s124 OEM100
+Z5 !s135 nogc
+Z6 o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2024.2;79
+R2
+T_opt1
+!s110 1756891088
+V8171G:oMUzB30M`AefLI43
+04 27 4 work testbench_seven_seg_decoder fast 0
+=1-505a65349729-68b807d0-ed-7d8c
+R0
+!s12f OEM25U2 
+R3
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+vlab1_gt
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z10 !s110 1756891082
+!i10b 1
+!s100 <YUA6z1JCbn4nm6:>:NJP2
+IDjK6bX:CBEFG7WM763QF60
+S1
+Z11 dC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/sim
+w1756886915
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv
+!i122 50
+L0 8 19
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z14 !s108 1756891082.000000
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/lab1_gt.sv|
+!i113 0
+Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vled2_counter
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv
+R9
+R10
+!i10b 1
+!s100 S_[zVYeEZBRe7bOYfl[Ml1
+IR@_Z_g:XAYfzgJ]]0^PO40
+S1
+R11
+w1756886961
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv
+!i122 53
+L0 8 21
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led2_counter.sv|
+!i113 0
+R15
+R7
+vled_decoder
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led_decoder.sv
+R9
+!s110 1756886136
+!i10b 1
+!s100 o^`S^^adC]haTHTACFXYJ1
+ITZbiE[00l7Nb`8G_Q7V_?1
+S1
+R11
+w1756883835
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led_decoder.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led_decoder.sv
+!i122 37
+L0 8 24
+R12
+R13
+r1
+!s85 0
+31
+!s108 1756886136.000000
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/led_decoder.sv|
+!i113 0
+R15
+R7
+vseven_seg_decoder
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv
+R9
+R10
+!i10b 1
+!s100 =S0c@GVO<kW>NZAS^o0Yc1
+IY;mTOnBb`KSg<_8<1RonO0
+S1
+R11
+w1756886902
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv
+!i122 51
+L0 8 28
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/seven_seg_decoder.sv|
+!i113 0
+R15
+R7
+vtestbench
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv
+R9
+R10
+!i10b 1
+!s100 WW69lUOGNUJXhAE:khUDI0
+IbdAAP5FSgmFHUZSmV<6ZX2
+S1
+R11
+w1756888463
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv
+!i122 52
+L0 11 49
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench.sv|
+!i113 0
+R15
+R7
+vtestbench_seven_seg_decoder
+2C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv
+R9
+R10
+!i10b 1
+!s100 <B[l2?FM03^eGP6N8Mz;62
+IZ3Vz^`^LF0N]mJmdzLBUU0
+S1
+R11
+w1756891077
+8C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv
+FC:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv
+!i122 54
+L0 11 45
+R12
+R13
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/User/Desktop/e155_lab1_gt/lab1_gt/source/impl_1/testbench_seven_seg_decoder.sv|
+!i113 0
+R15
+R7
